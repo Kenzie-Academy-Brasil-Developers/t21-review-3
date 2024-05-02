@@ -1,0 +1,25 @@
+{
+  "name": "t21-review-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "npx tsc",
+    "dev": "tsnd src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "zod": "^3.23.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/helmet": "^4.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
